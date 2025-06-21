@@ -1,1 +1,1 @@
-# Consumer-Patterns-in-Grocery-Retail-A-Data-Driven-Approach
+#  Consumer Patterns in Grocery Retail: A Data-Driven Approach
