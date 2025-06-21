@@ -15,7 +15,6 @@ To perform an end-to-end analysis of grocery retail data using a small-scale sam
 ---
 
 ##  Dataset Overview
-
 - **Source**: Sample data based on BlinkIT grocery retail operations  
 - **Records**: 8,523 rows  
 - **Format**: CSV (`BlinkIT Grocery Data.csv`)  
@@ -27,7 +26,6 @@ To perform an end-to-end analysis of grocery retail data using a small-scale sam
 ---
 
 ##  Tools Used
-
 -  **MySQL** – Schema creation, KPI queries, and joins  
 -  **Excel** – Data cleaning, pivot summaries  
 -  **Python (Pandas, Seaborn, Matplotlib)** – EDA & visual analysis  
@@ -36,7 +34,6 @@ To perform an end-to-end analysis of grocery retail data using a small-scale sam
 ---
 
 ##  SQL Insights (MySQL)
-
 Used MySQL to:
 - Aggregate sales by outlet type and city tier  
 - Identify top-selling product categories  
@@ -47,7 +44,6 @@ Used MySQL to:
 ---
 
 ## 📊 Power BI Dashboard
-
 - Revenue, Ratings, and Visibility KPIs
 - Sales by Product Type and Outlet Type
 - Average Ratings by Outlet
@@ -62,7 +58,6 @@ Used MySQL to:
 ---
 
 ## 📌 Key Findings from Sample Data
-
 | Insight Area             | Key Takeaways                                                  |
 |--------------------------|----------------------------------------------------------------|
 | 🛍 Top Products           | Fruits & Vegetables, Frozen Foods lead in volume              |
@@ -75,7 +70,6 @@ Used MySQL to:
 ---
 
 ## ✅ Conclusion
-
 Although based on a sample, this project demonstrates how real-world grocery data can be transformed into strategic insights. Businesses can:
 - Benchmark outlet performance across city tiers
 - Optimize inventory based on item visibility and category
