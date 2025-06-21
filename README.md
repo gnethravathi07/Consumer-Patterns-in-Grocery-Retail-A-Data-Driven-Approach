@@ -78,6 +78,8 @@ Used MySQL to:
 - Fat content vs Sales distribution
 - Interactive filters for outlet, item type, and location
 
+![image](https://github.com/user-attachments/assets/27dafde9-a2b0-4de5-86e7-23b50db7b5ad)
+
 ---
 
 ## 📌 Key Findings from Sample Data
