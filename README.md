@@ -3,10 +3,9 @@
 
 This project provides a deep dive into grocery retail data to uncover sales trends, consumer preferences, and operational opportunities using **MySQL**, **Excel**, **Python**, and **Power BI**. The analysis is based on a **sample of BlinkIT grocery data**, containing over **8,500 transaction records** across various outlet types and product categories.
 
-
+---
 
 ## 🎯 Project Objective
-
 To perform an end-to-end analysis of grocery retail data using a small-scale sample to:
 - Identify trends in product sales and customer satisfaction
 - Analyze outlet-level performance by region, size, and type
@@ -15,7 +14,7 @@ To perform an end-to-end analysis of grocery retail data using a small-scale sam
 
 ---
 
-## 📦 Dataset Overview
+##  Dataset Overview
 
 - **Source**: Sample data based on BlinkIT grocery retail operations  
 - **Records**: 8,523 rows  
@@ -25,32 +24,18 @@ To perform an end-to-end analysis of grocery retail data using a small-scale sam
   - `Sales`, `Rating`
   - `Outlet_Identifier`, `Outlet_Type`, `Outlet_Size`, `Outlet_Location_Type`, `Outlet_Establishment_Year`
 
-- **Missing Data**:  
-  - `Item_Weight`: ~1,463 missing values (handled via imputation)
+---
+
+##  Tools Used
+
+-  **MySQL** – Schema creation, KPI queries, and joins  
+-  **Excel** – Data cleaning, pivot summaries  
+-  **Python (Pandas, Seaborn, Matplotlib)** – EDA & visual analysis  
+-  **Power BI** – Dashboard creation with filters, slicers & DAX metrics
 
 ---
 
-## 🛠 Tools Used
-
-- 🐬 **MySQL** – Schema creation, KPI queries, and joins  
-- 📗 **Excel** – Data cleaning, pivot summaries  
-- 🐍 **Python (Pandas, Seaborn, Matplotlib)** – EDA & visual analysis  
-- 📊 **Power BI** – Dashboard creation with filters, slicers & DAX metrics
-
----
-
-## 🔧 Data Preparation & Enrichment
-
-- Cleaned and standardized inconsistent values (e.g., `Fat_Content`)
-- Filled missing `Item_Weight` using category-based mean
-- Derived new fields:
-  - `Outlet_Age` = 2025 - `Outlet_Establishment_Year`
-  - `Revenue per Visibility` = `Sales / Item_Visibility`
-- Categorized outlets by size, type, and location tier
-
----
-
-## 🧠 SQL Insights (MySQL)
+##  SQL Insights (MySQL)
 
 Used MySQL to:
 - Aggregate sales by outlet type and city tier  
@@ -59,19 +44,14 @@ Used MySQL to:
 - Join item-level and outlet-level data for combined metrics  
 - Filter out low-visibility, high-sales outliers for marketing targets
 
-> *Full SQL available in: `Grocery_Sales_Analysis.sql`*
-
 ---
 
-## 📊 Power BI Dashboards
+## 📊 Power BI Dashboard
 
-### 📘 Dashboard 1: **Sales & Performance Overview**
 - Revenue, Ratings, and Visibility KPIs
 - Sales by Product Type and Outlet Type
 - Average Ratings by Outlet
 - Product-level contribution to total revenue
-
-### 📗 Dashboard 2: **Outlet and Consumer Insights**
 - Sales vs Outlet Size and Age
 - Tier-wise comparison of outlet performance
 - Fat content vs Sales distribution
@@ -104,16 +84,3 @@ Although based on a sample, this project demonstrates how real-world grocery dat
 
 This project showcases a **multi-tool analytical approach** combining **MySQL**, **Python**, **Excel**, and **Power BI** in a real-world business context.
 
----
-
-## 📬 Contact
-
-- GitHub: [your_username]  
-- Email: [your_email@example.com]  
-- LinkedIn: [your_linkedin_profile]
-
----
-
-## 🏷️ Tags
-
-`#PowerBI` `#MySQL` `#Python` `#Excel` `#RetailAnalytics` `#BlinkIT` `#GrocerySales`
