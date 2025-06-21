@@ -1,10 +1,9 @@
-#  Consumer Patterns in Grocery Retail: A Data-Driven Approach
 
 # 🛒 Consumer Patterns in Grocery Retail: A Data-Driven Approach
 
 This project provides a deep dive into grocery retail data to uncover sales trends, consumer preferences, and operational opportunities using **MySQL**, **Excel**, **Python**, and **Power BI**. The analysis is based on a **sample of BlinkIT grocery data**, containing over **8,500 transaction records** across various outlet types and product categories.
 
----
+
 
 ## 🎯 Project Objective
 
