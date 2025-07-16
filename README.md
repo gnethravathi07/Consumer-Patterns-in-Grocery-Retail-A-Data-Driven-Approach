@@ -19,7 +19,7 @@ To perform an end-to-end analysis of grocery retail data using a small-scale sam
 - **Records**: 8,523 rows  
 - **Format**: CSV (`BlinkIT Grocery Data.csv`)  
 - **Columns**:  
-  - `Item_Identifier`, `Item_Type`, `Item_Weight`, `Item_Visibility`, `Item_Fat_Content`
+  - Item_Identifier, `Item_Type`, `Item_Weight`, `Item_Visibility`, `Item_Fat_Content`
   - `Sales`, `Rating`
   - `Outlet_Identifier`, `Outlet_Type`, `Outlet_Size`, `Outlet_Location_Type`, `Outlet_Establishment_Year`
 
